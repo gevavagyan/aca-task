@@ -1,5 +1,5 @@
 import axios from '../axiosConfig';
-import {CustomerType} from "../../types/general";
+import { CustomerType } from '../../types/general';
 
 type ResponseType = {
     success: boolean;

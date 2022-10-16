@@ -4,13 +4,11 @@ import Button from 'react-bootstrap/Button';
 
 import BasicTable from '../../components/table';
 import CustomerControlModal from '../../components/modal';
-
 import { ModalAction } from '../../components/modal/actions'
-
 import { addCustomer, initialAction } from '../../components/modal/actions';
+import type { CustomerType } from '../../types/general';
 
 import useStyles from './styles';
-import {CustomerType} from "../../types/general";
 
 const AdminPage = () => {
     const { wrapper, tablePanel, tableContainer } = useStyles();

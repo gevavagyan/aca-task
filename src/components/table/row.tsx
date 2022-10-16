@@ -1,8 +1,7 @@
 import deleteRow from '../../assets/delete.png';
 import editRow from '../../assets/edit.png';
-import {CustomerType, TableActions} from '../../types/general';
+import type { CustomerType, TableActions } from '../../types/general';
 import { deleteCustomer, editCustomer } from '../modal/actions';
-
 
 interface PropTypes {
     rowValues: CustomerType;

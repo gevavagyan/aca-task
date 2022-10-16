@@ -5,7 +5,7 @@ import {
     DELETE_CUSTOMER,
 } from '../actionTypes/customer';
 
-import {CustomerType} from "../../types/general";
+import type { CustomerType } from '../../types/general';
 
 export const load = (customers: CustomerType[]) => ({
     type: LOAD_CUSTOMERS,

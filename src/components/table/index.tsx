@@ -1,10 +1,11 @@
 import Table from 'react-bootstrap/Table';
-import Row from './row';
 import { headerFields } from '../../constants/customer';
+import Row from './row';
+
 import type { ModalAction } from '../modal/actions';
+import type { CustomerType } from '../../types/general';
 
 import useStyles from './styles';
-import {CustomerType} from "../../types/general";
 
 
 interface PropTypes {

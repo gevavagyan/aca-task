@@ -1,4 +1,4 @@
-import Modal, {ModalProps} from 'react-bootstrap/Modal';
+import Modal from 'react-bootstrap/Modal';
 import AddOrEdit from './children/addOrEdit';
 import Delete from './children/delete';
 import useStyles from './children/styles';
@@ -8,13 +8,6 @@ const modalTitles = {
     edit: 'Edit customer',
     delete: 'Delete customer'
 }
-//
-// interface PropTypes {
-//     selectedCustomer: () => void;
-//     modalAction:  string;
-//     show:  () => void;
-//     onHid:  boolean;
-// }
 
 function CustomerControlModal(props: any) {
     const { modalAction, selectedCustomer } = props;
