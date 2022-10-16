@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "age": "24",
+      "role": "admin",
+      "address": "Armenia",
+      "phone": "1234",
+      "email": "gevorgavagyan99@gmail.com",
+      "first_name": "Gevorg",
+      "last_name": "Avagyan",
+      "id": 5
+    },
+    {
+      "age": "24",
+      "role": "admin",
+      "address": "Armenia",
+      "phone": "09467",
+      "email": "gevorgavagyan99@gmail.com",
+      "first_name": "Gevorg",
+      "last_name": "Avagyan",
+      "id": 6
+    },
+    {
+      "age": "24",
+      "role": "admin",
+      "address": "Armenia",
+      "phone": "123",
+      "email": "gevorgavagyan99@gmail.com",
+      "first_name": "Gevorg",
+      "last_name": "Yeranosyan",
+      "id": 7
+    },
+    {
+      "age": "34",
+      "role": "admin",
+      "address": "Armenia",
+      "phone": "+37498111381",
+      "email": "gevorg@gmail.com",
+      "first_name": "Gevorg",
+      "last_name": "Smith",
+      "id": 8
+    },
+    {
+      "age": "23",
+      "role": "admin",
+      "address": "Armenia",
+      "phone": "+37495969995",
+      "email": "gevorg_hakobyan_99@mail.ru",
+      "first_name": "Lolo",
+      "last_name": "Smith",
+      "id": 9
+    }
+  ]
+}
